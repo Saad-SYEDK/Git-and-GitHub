@@ -1,6 +1,10 @@
-# Git
+# Git and GitHub
 
- Git is a open source  Version Control System
+In this Repository we will be learning about git and githun, what they are, thier benifits, and how to use them to collaborate with others in a project.
+
+## Git
+
+ Git is a open source  *Version Control System* that.
 
 ## Version Control System
 
