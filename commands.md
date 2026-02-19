@@ -10,7 +10,7 @@ There are two ways we can create a repository, the simplest way is to create a r
 
 The second way is to create a repository on our local system and initialize it git using `git init` command, then we push(basically update) the repository to our cloud i.e github, if we have already configured git then we can run this commnad `git push origin main`.
 
-## Basic - add, commit, push
+## Basic Commands - add, commit, push
 
 Once we have cloned our repo, we can do our work i.e create file, makes changes in our files, etc. And once we have made the changes we can update it to our remote repo.
 
