@@ -24,3 +24,7 @@ We do this by first adding the chagned file to *staging area*, then commiting th
 ***Note** : Commit message is mandatory and it has to be added within quotes("").*
 
 **Push** - The command `git push` will update the changes to the remote repository which in on the github and everyone with access to that repo will be able to see the chagnes.
+
+## Status
+
+Using the command `git status`
