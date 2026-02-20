@@ -27,4 +27,10 @@ We do this by first adding the chagned file to *staging area*, then commiting th
 
 ## Status
 
-Using the command `git status`
+The command `git status` is used to display the current status of our working directory and staging area. We have follwing statuses:
+
+- **Untracked** - New file that git doesn’t track yet
+- **Modified -**  Changed
+- **Staged -**  Ready to Commit (after **add**, before **Commit**)
+- **Unmodified -**  Not changed
+ 
