@@ -18,9 +18,9 @@ We do this by first adding the chagned file to *staging area*, then commiting th
 
 **Add** -  we can add out files to *Staging Area* using `git add <file_name>` command, we can also use `git add --a` to stage all the changed files (not recommended).
 
-**Staging Area** - this is the area before commit, we can review the files here before commiting on to them.
+**Staging Area** - this is the area before commit, we can review the files here before commiting them.
 
-**Commit** - using the command `git commit -m "<commit message i.e descripton of the changes made>"`, once we commit the changes they are ready to be pushed to the remote repo.
+**Commit** - using the command `git commit -m "<commit message i.e descripton of the changes made>"`, will commit all the files in staging area, files not in the staging araea will not be commited. Once we commit the changes they are ready to be pushed to the remote repo.
 ***Note** : Commit message is mandatory and it has to be added within quotes("").*
 
 **Push** - The command `git push` will update the changes to the remote repository which in on the github and everyone with access to that repo will be able to see the chagnes.
