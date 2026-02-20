@@ -34,7 +34,7 @@ The command `git status` is used to display the current status of our working di
 - **Modified -**  Changed
 - **Staged -**  Ready to Commit (after **add**, before **Commit**)
 - **Unmodified -**  Not changed
- 
+
 ## Undoing Changes
 
 We have 4 different cases:
@@ -60,8 +60,7 @@ We have 4 different cases:
 | Scenario | Command | Effect |
 | --- | --- | --- |
 | Unstaged changes | `git restore <file>` | Discards local edits to a file |
-| Staged changes | `git restore --staged <file>` | Keeps edits but removes from staging
+| Staged changes | `git restore --staged <file>` | Keeps edits but removes from staging |
 | Last local commit | `git reset --soft HEAD~1` | Deletes commit; changes stay staged |
 | multiple local commit | `git reset <commit_has>` | Deletes commit; changes stay staged |
 | Bad public commit | `git revert <commit-hash`> | New commit that "un-does" the old one |
-
