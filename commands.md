@@ -67,3 +67,30 @@ We have 4 different cases:
 
 ## Branches
 
+Suppose two persons are working on a same applicaton and person 1 in assgined with feature A and person 2 is assigned with feature B. If both of them work together on the same file they will be disturbing each other, to fix this we have the concept of **Branches**.
+
+Branch allows users to work in isolation without affecting the main branch.
+
+We have following branch commandsL:
+
+- **Creating a Branch :**
+
+    Create a branch using the command `git branch <name_of_branch>`  
+- **Switch to a Branch :**
+
+    Switch to an existing branch using `git switch <branch_name>`  
+
+    Create and switch directly using `git switch -c <new_brach_name>`
+- **List all Branches :** `git branch` or `git -a branch` to list remote branches also
+- **Merge a Branch :**
+
+    To merge current branch with another branch `git merge <name_of_branch_to_merge>`, it will integrate the other branch with current branch.
+- **Delete a Branch :** `git branch -d <branch_name>`.
+- **Rename a Branch :** `git branch -m <old_name> <new_name>`.
+
+Tips:
+
+- Create a seprate branch for every feature, avoids failure in main program.
+- Commit each small successful progress - Snapshot
+- Once the new feature has been tested, merge it with main.
+- Delete branch after it has been merged - Cleanup.
