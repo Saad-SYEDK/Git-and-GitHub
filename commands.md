@@ -10,7 +10,7 @@ There are two ways we can create a repository, the simplest way is to create a r
 
 The second way is to create a repository on our local system and initialize it git using `git init` command, then we push(basically update) the repository to our cloud i.e github, if we have already configured git then we can run this commnad `git push origin main`.
 
-## Basic Commands - add, commit, push
+## Basic Commands - add, commit, push, pull
 
 Once we have cloned our repo, we can do our work i.e create file, makes changes in our files, etc. And once we have made the changes we can update it to our remote repo.
 
@@ -25,6 +25,8 @@ We do this by first adding the chagned file to *staging area*, then commiting th
     *Note : Commit message is mandatory and it has to be added within quotes("").*
 
 - **Push** - The command `git push` will update the changes to the remote repository which in on the github and everyone with access to that repo will be able to see the chagnes.
+
+- **Pull** - `git pull` Fetches content from the remote repo into your local system, basically used to sync our local repo with the remote repo.
 
 ## Status
 
