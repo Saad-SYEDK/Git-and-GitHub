@@ -101,3 +101,7 @@ Tips:
 - Commit each small successful progress - Snapshot
 - Once the new feature has been tested, merge it with main.
 - Delete branch after it has been merged - Cleanup.
+
+## Diff
+
+The diff command is a powerful feature that allows use to compare between diffent stages of a file.
