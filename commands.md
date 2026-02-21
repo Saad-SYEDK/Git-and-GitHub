@@ -87,8 +87,11 @@ We have following branch commandsL:
 - **Merge a Branch :**
 
     To merge current branch with another branch `git merge <name_of_branch_to_merge>`, it will integrate the other branch with current branch.
-- **Delete a Branch :** `git branch -d <branch_name>`.
 - **Rename a Branch :** `git branch -m <old_name> <new_name>`.
+- **Delete a Branch :** `git branch -d <branch_name>`.
+    
+    once you delete a brach locally you must update it to your remote repo in order to reflect the deleted branch, else the branch will not be removed from the github.
+    `git push origin --delete <deleted_branch_name>`
 
 Tips:
 
