@@ -47,6 +47,8 @@ We have 4 different cases:
     If we have committed any changes and now we want to undo it we use `git reset HEAD~1`.
     HEAD~1 means we are moving our head one step back. (consider each commits as heads that are linearly connected)
 
+    ***Head is a pointer to our most recent commit, when we commit a change our head pointer moves forward, we can use head~2 to point to the commit that was 2 commits before the head***
+
 - **Multilple Commits :**
 
     If we want to undo changes and go back to any particular commits we can use `git reset <commit_hash>`. We can find commit_hash by looking at out commit log using `git log` (enter q to quit)
