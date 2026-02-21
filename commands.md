@@ -64,3 +64,6 @@ We have 4 different cases:
 | Last local commit | `git reset --soft HEAD~1` | Deletes commit; changes stay staged |
 | multiple local commit | `git reset <commit_has>` | Deletes commit; changes stay staged |
 | Bad public commit | `git revert <commit-hash`> | New commit that "un-does" the old one |
+
+## Branches
+
