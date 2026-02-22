@@ -106,7 +106,7 @@ Tips:
 
 The diff command is a powerful feature that allows use to compare between diffent stages of a file.
 
-- `git diff` - It shows the difference between the lastest verion in repo vs current changes before git add.
+- `git diff` - It shows the difference between the latest commit vs current changes before adding to staging area.
 
 - `git diff --staged` - Shows changes in staging area that are not yet commited.
 
