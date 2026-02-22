@@ -110,4 +110,14 @@ The diff command is a powerful feature that allows use to compare between diffen
 
 - `git diff --staged` - Shows changes in staging area that are not yet commited.
 
-- `git diff `
+- `git diff HEAD` - Shows local changes vs commited changes.
+
+- `git diff <commit 1> <commit 2>` - Shows the difference between two commits identified by their commit_hash.
+
+- `git diff <branch 1> <branch 2>` - Shows difference both branches identified by their branch_names.
+
+- `git diff <file_name>` - similar to first command but only displays the changes of file_name.
+
+**Checkout about tools like meld, difftools, etc.**
+
+
