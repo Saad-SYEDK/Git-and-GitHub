@@ -120,4 +120,19 @@ The diff command is a powerful feature that allows use to compare between diffen
 
 **Checkout about tools like meld, difftools, etc.**
 
+## Fork
+
+Fork is a fearture of github that allows a user to create a personal copy of someone's repo and host it on cloud.
+
+It is similar to clone but the difference is that when you clone you store the repo in your local machine.
+
+*Fork is not a git command, it is a freature of github.*
+
+Fork vs. Clone
+
+| Feature | Fork | Clone |
+| --- | --- | --- |
+| Location | Created on the server (e.g., GitHub.com) | Created on your local machine |
+| Ownership | You own the forked copy | You usually do not own the target |
+| Write Access | Full control over your fork | Limited by original permissions |
 
