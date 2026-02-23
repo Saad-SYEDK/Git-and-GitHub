@@ -141,3 +141,14 @@ Fork vs. Clone
 Suppose you are working on someone's project, you created a seprate branch or fork the repo to work on a specific feature. Once your feature is ready now you want to merge this changes with the main file/branch/repo, since you're not the admin/owner of that repo you will make a **Pull Request** to the owner. If the owner accepts that request your code/branch will be merged with the main branch.
 
 ***A Pull Request (PR) is a proposal to merge changes from one code branch into another.***
+
+## Other
+
+In GitHub a user can create following things:
+
+- **Issues** - Primary unit of work, used to track, assign tasks, raise bugs, feature requests, etc
+
+- **Labels** - Baiscally tags that are used to categorize issues, pull requests.
+Common categories include - high priority, good first issues, help wanted, etc. users can also create custom labels.
+
+- **Milestones** - Used for progress tracking, like deployment, v1, v3 release, etc. Milestones also group issues and pull requestes into a bundle with options to add deadlines.
