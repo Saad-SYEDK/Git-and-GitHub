@@ -136,3 +136,8 @@ Fork vs. Clone
 | Ownership | You own the forked copy | You usually do not own the target |
 | Write Access | Full control over your fork | Limited by original permissions |
 
+## Pull Request
+
+Suppose you are working on someone's project, you created a seprate branch or fork the repo to work on a specific feature. Once your feature is ready now you want to merge this changes with the main file/branch/repo, since you're not the admin/owner of that repo you will make a **Pull Request** to the owner. If the owner accepts that request your code/branch will be merged with the main branch.
+
+***A Pull Request (PR) is a proposal to merge changes from one code branch into another.***
